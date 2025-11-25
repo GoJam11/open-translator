@@ -1,7 +1,11 @@
+<p align="center">
+  <img src="public/icon/logo.png" alt="Open Translator Logo" width="128" />
+</p>
+
 # 纯净式翻译（Open Translate）
 > 面向 Chrome 的 AI 网页全文翻译扩展，接入任意兼容 OpenAI 的模型，在原页面内直接展示译文。
 
-![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178c6?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=black) ![WXT](https://img.shields.io/badge/Built%20with-WXT-000?logo=google-chrome&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178c6?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=black) ![WXT](https://img.shields.io/badge/Built%20with-WXT-000?logo=google-chrome&logoColor=white) [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-4285F4?logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/detail/fnbfdoaijjbgheeapedekffoiagbooeb?utm_source=github)
 
 纯净式翻译（Open Translate）专注一件事：把网页上可读的段落交给你信任的模型处理，再把结果以原生风格插回去。没有冗余的侧边栏，也不绑定任何云服务——只要能兼容 OpenAI Chat Completions，就能工作。
 
@@ -58,8 +62,8 @@ options(App.tsx) ◀─────┘                    └── declarativeN
 
 ### 安装依赖
 ```bash
-git clone https://github.com/<your-account>/open-translate.git
-cd open-translate
+git clone https://github.com/GoJam11/open-translator
+cd open-translator
 bun install      # 首选 Bun；若无法使用，可改用 npm install / pnpm install
 ```
 

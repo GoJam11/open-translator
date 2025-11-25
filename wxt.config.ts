@@ -14,7 +14,7 @@ const EXTENSION_ICONS = {
 export default defineConfig({
   modules: ['@wxt-dev/module-react'],
   manifest: {
-    name: '纯净式翻译 · Open Translate',
+    name: '纯净式翻译 · Open Translator',
     permissions: [
       'storage',
       'declarativeNetRequestWithHostAccess',
