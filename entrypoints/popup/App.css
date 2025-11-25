@@ -1,0 +1,80 @@
+.popup {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.popup h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.9rem;
+}
+
+.field label {
+  font-weight: 600;
+}
+
+.field select {
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  padding: 6px 8px;
+  font-size: 0.95rem;
+}
+
+button.primary {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button.primary:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+button.link {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  font-size: 0.85rem;
+}
+
+.status {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+  min-height: 1em;
+}
+
+.status-error {
+  color: #dc2626;
+}
+
+.status-done {
+  color: #16a34a;
+}
+
+.status-running {
+  color: #2563eb;
+}

@@ -1,0 +1,23 @@
+:root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+body {
+  margin: 0;
+  padding: 32px 16px 48px;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}

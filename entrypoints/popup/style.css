@@ -1,0 +1,22 @@
+:root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #0f172a;
+  background-color: #f9fafb;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  width: 320px;
+  min-height: 360px;
+  background: #f9fafb;
+}
+
+button,
+select {
+  font-family: inherit;
+}
